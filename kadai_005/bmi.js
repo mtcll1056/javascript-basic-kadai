@@ -1,14 +1,11 @@
 // 身長
-let userHeight;
-
-// 身長指定
-userHeight = 1.7
+let userHeight = 1.7;
 
 // 体重
-let userWeight;
-
-// 体重指定
-userWeight = 68
+let userWeight = 68;
 
 // BMI
-console.log(userWeight/[userHeight*userHeight])
+let userBmi = userWeight/(userHeight*userHeight);
+
+// BMI計算
+console.log(userBmi)
