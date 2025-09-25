@@ -1,5 +1,5 @@
-const calculation = (num) => {
-    console.log(num*num);
+function calculation(num) {
+  return num * num;
 }
 
-calculation(10)
+console.log(calculation(10)); 
